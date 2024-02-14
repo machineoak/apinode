@@ -3,11 +3,11 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send("proxy get")
+    res.send("get")
 })
 
 app.delete('/', (req, res) => {
-    res.send("proxy delete")
+    res.send("delete")
 })
 
 app.listen(PORT, () => {
